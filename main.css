@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 350px;
+  background-image: url("./images/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h2 {
+  display: inline-block;
+  color: #1fdbdc;
+  font-weight: 700;
+  padding: 10px 35px;
+  font-size: 55px;
+}
+
+footer.container{
+  margin-top: 10px;
+}

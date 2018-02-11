@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Decoder</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+  </head>
+  <body>
+
+    <section class="jumbotron"></section>
+    <section class="container">
+      <div class="row">
+        <label>Enter your text here:</label>        
+      </div>
+      <div class="row">
+        <textarea rows="10" cols="100" name="comment" id="enteredText"></textarea>
+      </div>
+      <div class="row">
+        <label>Decoded:</label>        
+      </div>
+      <div class="row">
+        <textarea rows="10" cols="100" id="decodedText" readonly></textarea>
+      </div>  
+      <br/>
+      <div class="row">
+        <button type="button" class="btn btn-primary" onclick="decodeBtn()">Decode String</button>
+      </div>     
+    </section>
+    <footer class="container">
+      <div class="row">
+        <p>Developed By: Jeton Pllana</p>
+      </div>
+    </footer>
+  </body>
+</html>
